@@ -1,0 +1,34 @@
+.custom-theme button.btn-success {
+    background-color: #5bb75b;
+}
+
+.custom-theme button.btn-info {
+    background-color: #49afcd;
+}
+
+.custom-theme button.btn-warning {
+    background-color: #faa732;
+}
+
+.custom-theme button.btn-danger {
+    background-color: #da4f49;
+}
+
+.custom-theme button.btn-link {
+    background-color: transparent;
+}
+
+.custom-theme button.btn-success,
+.custom-theme button.btn-info,
+.custom-theme button.btn-warning,
+.custom-theme button.btn-danger,
+.custom-theme button.btn-link {
+    background-image: none !important;
+}
+
+.custom-theme .btn-link:hover,
+.custom-theme .btn-link:focus {
+    border-color: transparent;
+    text-decoration: none; /* Remove the hover underline to make this match theme link styling. */
+    background: none !important;
+}
